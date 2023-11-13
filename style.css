@@ -20,8 +20,46 @@
 
 html {
   font-size: 62.5%;
+  font-family: var(--ff-base);
 }
 
 body {
   font-size: 1.5rem;
+  background-color: var(--clr-neutral-600);
+}
+
+.wrapper {
+  min-height: 95vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  max-width: 40rem;
+  padding: 3.2rem;
+  background-color: var(--clr-neutral-500);
+
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.button {
+  width: 100%;
+  padding: 1.6rem 3.2rem;
+  border: none;
+  border-radius: 50px;
+  background-color: var(--clr-primary-400);
+  font-size: 1.6rem;
+  font-weight: var(--fw-bold);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
