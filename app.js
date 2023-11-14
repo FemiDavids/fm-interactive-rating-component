@@ -1,0 +1,1 @@
+const ratingsCard = 1;
