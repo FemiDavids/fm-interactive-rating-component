@@ -1,5 +1,6 @@
 :root {
-  --clr-primary-400: hsl(25, 97%, 53%); /* Orange */
+  --clr-primary: hsl(25, 97%, 53%); /* Orange */
+  --clr-secondary: hsl(213deg, 20%, 22%); /* Secondary */
 
   --clr-neutral-000: hsl(0, 0%, 100%); /* White */
   --clr-neutral-300: hsl(217, 12%, 63%); /* Light Grey */
@@ -56,16 +57,16 @@ body {
   border-radius: 50%;
 }
 
-h1 {
+.title {
   color: var(--clr-neutral-000);
   margin-bottom: 1rem;
 }
 
-p {
+.description {
   color: var(--clr-neutral-300);
 }
 
-.flex-group {
+.ratings {
   display: flex;
   justify-content: space-between;
 }
